@@ -50,7 +50,7 @@ def sidebar_api_key_configuration():
 def sidebar_groq_model_selection():
     st.sidebar.subheader("Model Selection")
     model = st.sidebar.selectbox('Select the Model', ('Llama3-8b-8192', 'Llama3-70b-8192', 'Mixtral-8x7b-32768',
-                                                      'Gemma-7b-it'), label_visibility="collapsed")
+                                                      'Gemma-7b-it','Llama-3.1-70b-Versatile'), label_visibility="collapsed")
     return model
 
 
